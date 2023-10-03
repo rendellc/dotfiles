@@ -1,6 +1,17 @@
 #!/bin/bash
 
 
-selected=`ls -d ~/dev/* | tr ' ' '\n' | fzf`
+path=`ls -d ~/dev/* | tr ' ' '\n' | fzf`
 
-echo "Selected: $selected"
+if [ -z "$path" ]
+then
+	echo "No folder selected"
+	exit 1
+fi
+
+echo "Path: $path"
+name=${path##*/}
+echo "Name: $name"
+
+tmux new -s $name -c $path
+
