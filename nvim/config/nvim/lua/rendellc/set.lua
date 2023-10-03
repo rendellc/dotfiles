@@ -10,8 +10,7 @@ vim.opt.wrap = false
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv("localappdata") .. "/nvim-data/undodir"
-vim.opt.undofile = true
+vim.opt.undofile = false
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
