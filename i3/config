@@ -157,7 +157,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 
 # configure keyboard layout
-bindsym Mod4+Space exec ~/dotfiles/i3/i3-keyboard-layout/i3-keyboard-layout cycle us no
+bindsym Mod4+Space exec ~/dev/dotfiles/i3/i3-keyboard-layout/i3-keyboard-layout cycle us no
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
