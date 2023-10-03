@@ -1,0 +1,40 @@
+-- create a reasonable starting config for copilot with neovim lua
+--
+-- require("copilot").setup({
+-- 	-- your options here
+-- 	-- default values
+-- 	keymap = "<leader>cp",
+-- 	snippet_options = {
+-- 		max_lines = 15, -- don't insert snippets if exceed this
+-- 		max_file_lines = 1000,
+-- 	},
+-- 	snippet_dirs = {
+-- 		-- paths to your snippet directories
+-- 		-- e.g. '/path/to/vim-snippets'
+-- 	},
+-- 	-- treesitter-hl has 100+ snippets
+-- 	merge = {
+-- 		paths = {
+-- 			-- paths to merge
+-- 			-- e.g. '/path/to/my-snippets'
+-- 		},
+-- 		-- for a specific filetype
+-- 		-- e.g. 'javascript'
+-- 		snippets = {},
+-- 	},
+-- 	-- specify filetype to use
+-- 	-- e.g. 'javascript'
+-- 	-- or filetype={'javascript', 'typescript'}
+-- 	-- or filetype={'all'}
+-- 	filetype = {},
+-- 	-- default, 'all' or 'selected'
+-- 	expand = "all",
+-- 	-- whether to load from loaded_snippets or not
+-- 	-- load_from_home = true,
+-- 	-- specify a path for cache, default will be inside the plugin folder
+-- 	-- cache_path = '',
+-- 	-- specify a path for UltiSnips compatible snippets
+-- 	-- e.g. vim.g.snippets_dir = '/path/to/UltiSnips'
+-- 	-- for UltiSnips snippets, make sure you have UltiSnips installed
+-- 	-- as well as
+-- })
