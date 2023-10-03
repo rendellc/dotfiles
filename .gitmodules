@@ -1,0 +1,3 @@
+[submodule "i3/i3-keyboard-layout"]
+	path = i3/i3-keyboard-layout
+	url = https://github.com/porras/i3-keyboard-layout
