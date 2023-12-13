@@ -52,4 +52,11 @@ return require("packer").startup(function(use)
 	})
 
 	use("duane9/nvim-rg")
+
+	use("akinsho/toggleterm.nvim")
+	use({"kdheepak/lazygit.nvim",
+		requires= {
+			"nvim-lua/plenary.nvim",
+		}
+	})
 end)
