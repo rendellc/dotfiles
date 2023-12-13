@@ -14,6 +14,7 @@ vim.keymap.set("v", "<leader>y", '"+y')
 vim.keymap.set("n", "Q", "<nop>")
 
 vim.keymap.set("n", "<leader>co", ":copen<CR>")
+vim.keymap.set("n", "<leader>cc", ":cclose<CR>")
 vim.keymap.set("n", "<leader>cn", ":cnext<CR>")
 vim.keymap.set("n", "<leader>cp", ":cprev<CR>")
 

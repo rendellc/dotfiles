@@ -1,7 +1,8 @@
 #!/bin/bash
 
 
-path=`ls -d ~/dev/* | tr ' ' '\n' | fzf`
+#path=`ls -d ~/dev/* | tr ' ' '\n' | fzf`
+path=`find ~/dev -type d -print | fzf`
 
 if [ -z "$path" ]
 then
